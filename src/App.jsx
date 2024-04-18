@@ -21,6 +21,7 @@ function App() {
       {
         accessorKey: "email",
         header: "E-mail Address",
+        size: 300,
       },
       {
         accessorKey: "phone",
@@ -65,9 +66,9 @@ function App() {
         header: "Street Address",
       },
       {
-        accessorKey:"address.state",
-        header:"State Name"
-      }
+        accessorKey: "address.state",
+        header: "State Name",
+      },
     ],
     []
   );
@@ -75,6 +76,12 @@ function App() {
   const table = useMaterialReactTable({
     columns,
     data: STUDENTS,
+    enableColumnResizing: true,
+    defaultColumn: {
+      size: 150,
+      minSize: 100,
+      maxSize: 350,
+    },
     initialState: { pagination: { pageSize: 5, pageIndex: 0 } },
   });
 
