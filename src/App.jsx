@@ -1,7 +1,7 @@
 import { useMemo } from "react";
 import { Container } from "@mui/material";
 import "./App.css";
-
+import ContentCopyIcon from "@mui/icons-material/ContentCopy";
 import {
   MaterialReactTable,
   useMaterialReactTable,
@@ -17,6 +17,7 @@ function App() {
       {
         accessorKey: "name",
         header: "Full Name",
+        enableClickToCopy: false,
       },
       {
         accessorKey: "email",
@@ -25,6 +26,7 @@ function App() {
       {
         accessorKey: "phone",
         header: "Phone Number",
+        enableClickToCopy: true,
       },
 
       {
@@ -65,9 +67,9 @@ function App() {
         header: "Street Address",
       },
       {
-        accessorKey:"address.state",
-        header:"State Name"
-      }
+        accessorKey: "address.state",
+        header: "State Name",
+      },
     ],
     []
   );
@@ -75,6 +77,14 @@ function App() {
   const table = useMaterialReactTable({
     columns,
     data: STUDENTS,
+    // enableClickToCopy: true,
+    muiCopyButtonProps: {
+      sx: {
+        // color:"red"
+        fontWeight: "initial",
+      },
+      startIcon: <ContentCopyIcon />,
+    },
     initialState: { pagination: { pageSize: 5, pageIndex: 0 } },
   });
 
