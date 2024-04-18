@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import { Container } from "@mui/material";
+import { Container, Typography, Box, Button } from "@mui/material";
 import "./App.css";
 
 import {
@@ -65,9 +65,9 @@ function App() {
         header: "Street Address",
       },
       {
-        accessorKey:"address.state",
-        header:"State Name"
-      }
+        accessorKey: "address.state",
+        header: "State Name",
+      },
     ],
     []
   );
@@ -75,7 +75,17 @@ function App() {
   const table = useMaterialReactTable({
     columns,
     data: STUDENTS,
-    enableRowSelection:true,
+    enableRowSelection: true,
+    renderToolbarAlertBannerContent: ({ selectedAlert }) => {
+      return (
+        <Box sx={{ p:1,px:4,display: "flex" }}>
+          {selectedAlert}
+          <Button size="small" sx={{ ml: 2 }} color="error">
+            delete selected
+          </Button>
+        </Box>
+      );
+    },
     initialState: { pagination: { pageSize: 5, pageIndex: 0 } },
   });
 
