@@ -75,6 +75,7 @@ function App() {
   const table = useMaterialReactTable({
     columns,
     data: STUDENTS,
+    enableRowSelection:true,
     initialState: { pagination: { pageSize: 5, pageIndex: 0 } },
   });
 
