@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import { Container } from "@mui/material";
+import { Container, Box, Typography } from "@mui/material";
 import "./App.css";
 
 import {
@@ -51,23 +51,23 @@ function App() {
         header: "DOA",
       },
 
-      {
-        accessorKey: "address.pincode",
-        header: "Postal Code",
-      },
+      // {
+      //   accessorKey: "address.pincode",
+      //   header: "Postal Code",
+      // },
 
-      {
-        accessorKey: "address.city",
-        header: "City Name",
-      },
-      {
-        accessorKey: "address.street",
-        header: "Street Address",
-      },
-      {
-        accessorKey:"address.state",
-        header:"State Name"
-      }
+      // {
+      //   accessorKey: "address.city",
+      //   header: "City Name",
+      // },
+      // {
+      //   accessorKey: "address.street",
+      //   header: "Street Address",
+      // },
+      // {
+      //   accessorKey: "address.state",
+      //   header: "State Name",
+      // },
     ],
     []
   );
@@ -75,6 +75,28 @@ function App() {
   const table = useMaterialReactTable({
     columns,
     data: STUDENTS,
+    muiDetailPanelProps: () => ({
+      sx: (theme) => ({
+        backgroundColor:"success.main",
+        color:theme.palette.common.white
+      }),
+    }),
+    renderDetailPanel: ({ row }) => (
+      <Box
+        sx={{
+          display: "grid",
+          margin: "auto",
+          gridTemplateColumns: "1fr 1fr",
+          width: "100%",
+          rowGap:2
+        }}
+      >
+        <Typography>Pin Code: {row.original.address.pincode}</Typography>
+        <Typography>City: {row.original.address.city}</Typography>
+        <Typography>State: {row.original.address.state}</Typography>
+        <Typography>Street: {row.original.address.street}</Typography>
+      </Box>
+    ),
     initialState: { pagination: { pageSize: 5, pageIndex: 0 } },
   });
 
