@@ -65,9 +65,9 @@ function App() {
         header: "Street Address",
       },
       {
-        accessorKey:"address.state",
-        header:"State Name"
-      }
+        accessorKey: "address.state",
+        header: "State Name",
+      },
     ],
     []
   );
@@ -75,6 +75,15 @@ function App() {
   const table = useMaterialReactTable({
     columns,
     data: STUDENTS,
+    // enableRowSelection: true,
+    enableRowPinning: true,
+    // rowPinningDisplayMode: "select-sticky", // default
+    muiTableContainerProps: {
+      sx: {
+        maxHeight: 400,
+      },
+    },
+
     initialState: { pagination: { pageSize: 5, pageIndex: 0 } },
   });
 
