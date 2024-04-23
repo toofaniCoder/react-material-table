@@ -65,9 +65,9 @@ function App() {
         header: "Street Address",
       },
       {
-        accessorKey:"address.state",
-        header:"State Name"
-      }
+        accessorKey: "address.state",
+        header: "State Name",
+      },
     ],
     []
   );
@@ -75,7 +75,24 @@ function App() {
   const table = useMaterialReactTable({
     columns,
     data: STUDENTS,
-    initialState: { pagination: { pageSize: 5, pageIndex: 0 } },
+    enableColumnPinning: true,
+    muiTableContainerProps: {
+      sx: (theme) => ({
+        "td[data-pinned='true']::before,th[data-pinned='true']::before": {
+          backgroundColor: `${theme.palette.primary.main} !important`,
+        },
+        "td[data-pinned='true'],th[data-pinned='true']": {
+          color: theme.palette.common.white,
+        },
+      }),
+    },
+    initialState: {
+      pagination: { pageSize: 5, pageIndex: 0 },
+      columnPinning: {
+        left: ["phone"],
+        right: ["address.pincode"],
+      },
+    },
   });
 
   return (
