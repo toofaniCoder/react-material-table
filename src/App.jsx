@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import { Container } from "@mui/material";
 import "./App.css";
 
@@ -11,16 +11,19 @@ import STUDENTS from "./students.json";
 // console.log(STUDENTS);
 
 function App() {
+  const [data, setData] = useState([...STUDENTS]);
   //should be memoized or stable
   const columns = useMemo(
     () => [
       {
         accessorKey: "name",
         header: "Full Name",
+        // enableEditing:false
       },
       {
         accessorKey: "email",
         header: "E-mail Address",
+        // Edit: () => null,
       },
       {
         accessorKey: "phone",
@@ -51,30 +54,38 @@ function App() {
         header: "DOA",
       },
 
-      {
-        accessorKey: "address.pincode",
-        header: "Postal Code",
-      },
+      // {
+      //   accessorKey: "address.pincode",
+      //   header: "Postal Code",
+      // },
 
-      {
-        accessorKey: "address.city",
-        header: "City Name",
-      },
-      {
-        accessorKey: "address.street",
-        header: "Street Address",
-      },
-      {
-        accessorKey:"address.state",
-        header:"State Name"
-      }
+      // {
+      //   accessorKey: "address.city",
+      //   header: "City Name",
+      // },
+      // {
+      //   accessorKey: "address.street",
+      //   header: "Street Address",
+      // },
+      // {
+      //   accessorKey: "address.state",
+      //   header: "State Name",
+      // },
     ],
     []
   );
 
   const table = useMaterialReactTable({
     columns,
-    data: STUDENTS,
+    data: data,
+    enableEditing: true,
+    // editDisplayMode: "row",
+    onEditingRowSave: ({ table, row, values }) => {
+      setData((prevData) =>
+        prevData.map((item) => (item.id === row.original.id ? values : item))
+      );
+      table.setEditingRow(null);
+    },
     initialState: { pagination: { pageSize: 5, pageIndex: 0 } },
   });
 
