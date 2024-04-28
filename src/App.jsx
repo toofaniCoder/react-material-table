@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import { Container } from "@mui/material";
 import "./App.css";
 
@@ -11,6 +11,7 @@ import STUDENTS from "./students.json";
 // console.log(STUDENTS);
 
 function App() {
+  const [data, setData] = useState([...STUDENTS]);
   //should be memoized or stable
   const columns = useMemo(
     () => [
@@ -65,16 +66,30 @@ function App() {
         header: "Street Address",
       },
       {
-        accessorKey:"address.state",
-        header:"State Name"
-      }
+        accessorKey: "address.state",
+        header: "State Name",
+      },
     ],
     []
   );
 
   const table = useMaterialReactTable({
     columns,
-    data: STUDENTS,
+    data,
+    enableRowOrdering: true,
+    muiRowDragHandleProps: ({ table }) => ({
+      onDragEnd: () => {
+        const { draggingRow, hoveredRow } = table.getState();
+        if (hoveredRow && draggingRow) {
+          data.splice(
+            hoveredRow.index,
+            0,
+            data.splice(draggingRow.index, 1)[0]
+          );
+          setData([...data]);
+        }
+      },
+    }),
     initialState: { pagination: { pageSize: 5, pageIndex: 0 } },
   });
 
