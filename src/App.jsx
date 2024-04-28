@@ -65,9 +65,9 @@ function App() {
         header: "Street Address",
       },
       {
-        accessorKey:"address.state",
-        header:"State Name"
-      }
+        accessorKey: "address.state",
+        header: "State Name",
+      },
     ],
     []
   );
@@ -75,7 +75,11 @@ function App() {
   const table = useMaterialReactTable({
     columns,
     data: STUDENTS,
-    initialState: { pagination: { pageSize: 5, pageIndex: 0 } },
+    enableColumnOrdering: true,
+    initialState: {
+      columnOrder: ["section", "email", "phone", "standard"],
+      pagination: { pageSize: 5, pageIndex: 0 },
+    },
   });
 
   return (
