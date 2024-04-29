@@ -1,5 +1,5 @@
-import { useMemo } from "react";
-import { Container } from "@mui/material";
+import { useMemo, useState } from "react";
+import { Container, Button } from "@mui/material";
 import "./App.css";
 
 import {
@@ -11,6 +11,7 @@ import STUDENTS from "./students.json";
 // console.log(STUDENTS);
 
 function App() {
+  const [sorting, setSorting] = useState([]);
   //should be memoized or stable
   const columns = useMemo(
     () => [
@@ -65,9 +66,9 @@ function App() {
         header: "Street Address",
       },
       {
-        accessorKey:"address.state",
-        header:"State Name"
-      }
+        accessorKey: "address.state",
+        header: "State Name",
+      },
     ],
     []
   );
@@ -75,6 +76,27 @@ function App() {
   const table = useMaterialReactTable({
     columns,
     data: STUDENTS,
+    onSortingChange: setSorting,
+    state: {
+      sorting,
+    },
+    isMultiSortEvent: () => true,
+    maxMultiSortColCount: 3,
+    renderTopToolbarCustomActions: ({ table }) => {
+      console.log(sorting);
+      return (
+        <Button
+          size="small"
+          color="primary"
+          variant="outlined"
+          onClick={() => table.resetSorting()}
+          sx={{ alignSelf: "center" }}
+          disabled={sorting.length === 0}
+        >
+          Clear All Sorting
+        </Button>
+      );
+    },
     initialState: { pagination: { pageSize: 5, pageIndex: 0 } },
   });
 
