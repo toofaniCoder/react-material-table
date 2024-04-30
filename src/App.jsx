@@ -8,6 +8,7 @@ import {
 } from "material-react-table";
 
 import STUDENTS from "./students.json";
+import { blue } from "@mui/material/colors";
 // console.log(STUDENTS);
 
 function App() {
@@ -65,9 +66,9 @@ function App() {
         header: "Street Address",
       },
       {
-        accessorKey:"address.state",
-        header:"State Name"
-      }
+        accessorKey: "address.state",
+        header: "State Name",
+      },
     ],
     []
   );
@@ -75,6 +76,18 @@ function App() {
   const table = useMaterialReactTable({
     columns,
     data: STUDENTS,
+    enableExpanding: true,
+
+    getSubRows: (originalRow) => originalRow.child,
+    muiTableContainerProps: {
+      sx: () => {
+        return {
+          "tr:has(td>span[aria-label='Collapse'])": {
+            backgroundColor: `${blue[200]} !important`,
+          },
+        };
+      },
+    },
     initialState: { pagination: { pageSize: 5, pageIndex: 0 } },
   });
 
