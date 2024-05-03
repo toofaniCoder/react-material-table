@@ -1,12 +1,18 @@
 import { useMemo } from "react";
-import { Container } from "@mui/material";
+import {
+  Container,
+  ListItemButton,
+  ListItemIcon,
+  ListItemText,
+  MenuItem,
+} from "@mui/material";
 import "./App.css";
 
 import {
   MaterialReactTable,
   useMaterialReactTable,
 } from "material-react-table";
-
+import AccessibilityIcon from "@mui/icons-material/Accessibility";
 import STUDENTS from "./students.json";
 // console.log(STUDENTS);
 
@@ -17,6 +23,7 @@ function App() {
       {
         accessorKey: "name",
         header: "Full Name",
+        // enableColumnActions: false, // you can disable column action
       },
       {
         accessorKey: "email",
@@ -65,9 +72,9 @@ function App() {
         header: "Street Address",
       },
       {
-        accessorKey:"address.state",
-        header:"State Name"
-      }
+        accessorKey: "address.state",
+        header: "State Name",
+      },
     ],
     []
   );
@@ -75,6 +82,34 @@ function App() {
   const table = useMaterialReactTable({
     columns,
     data: STUDENTS,
+    // enableColumnActions:false, // disable column action for all columns
+    renderColumnActionsMenuItems: ({ internalColumnMenuItems, closeMenu }) => {
+      return [
+        <ListItemButton
+          key="hello"
+          onClick={() => {
+            alert("Hello");
+            closeMenu();
+          }}
+        >
+          <ListItemIcon sx={{ minWidth: 38 }}>
+            <AccessibilityIcon />
+          </ListItemIcon>
+          <ListItemText primary="Say hello" />
+        </ListItemButton>,
+        // <MenuItem key="hello" onClick={() => console.log("hello")}>
+        //   hello
+        // </MenuItem>,
+        ...internalColumnMenuItems,
+      ];
+    },
+    muiTableHeadCellProps: {
+      sx: {
+        "& .Mui-TableHeadCell-Content": {
+          justifyContent: "space-between",
+        },
+      },
+    },
     initialState: { pagination: { pageSize: 5, pageIndex: 0 } },
   });
 
