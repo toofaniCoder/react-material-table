@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import { Container } from "@mui/material";
+import { Container, Divider, MenuItem } from "@mui/material";
 import "./App.css";
 
 import {
@@ -65,9 +65,9 @@ function App() {
         header: "Street Address",
       },
       {
-        accessorKey:"address.state",
-        header:"State Name"
-      }
+        accessorKey: "address.state",
+        header: "State Name",
+      },
     ],
     []
   );
@@ -75,6 +75,20 @@ function App() {
   const table = useMaterialReactTable({
     columns,
     data: STUDENTS,
+    enableCellActions: true,
+    enableClickToCopy: "context-menu",
+    enableEditing: true,
+    editDisplayMode: "cell",
+    renderCellActionMenuItems: ({ internalMenuItems }) => [
+      ...internalMenuItems,
+      <Divider key="divider-1" />,
+      <MenuItem sx={{ minWidth: 200 }} key="disable">
+        disable
+      </MenuItem>,
+      <MenuItem sx={{ minWidth: 200 }} key="delete">
+        delete
+      </MenuItem>,
+    ],
     initialState: { pagination: { pageSize: 5, pageIndex: 0 } },
   });
 
