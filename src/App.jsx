@@ -10,11 +10,14 @@ import { useLocalStorage } from "@uidotdev/usehooks";
 
 function App() {
   const [sorting, setSorting] = useLocalStorage("mrt_sorting", []);
-  const [columnFilters, setColumnFilters] = useLocalStorage("mrt_sorting", []);
+  const [columnFilters, setColumnFilters] = useLocalStorage(
+    "mrt_columnFilters",
+    []
+  );
 
   const [columnVisibility, setColumnVisibility] = useLocalStorage(
     "mrt_columnVisibility",
-    {}
+    []
   );
   const [density, setDensity] = useLocalStorage("mrt_density", "comfortable");
   const [globalFilter, setGlobalFilter] = useLocalStorage(
@@ -108,7 +111,12 @@ function App() {
         data={STUDENTS}
         columns={columns}
         onColumnFiltersChange={setColumnFilters}
-        onColumnVisibilityChange={setColumnVisibility}
+        onColumnVisibilityChange={(a) => {
+          setColumnVisibility(() => ({
+            ...JSON.parse(localStorage.getItem("mrt_columnVisibility")),
+            ...a(),
+          }));
+        }}
         onDensityChange={setDensity}
         onGlobalFilterChange={setGlobalFilter}
         onShowColumnFiltersChange={setShowColumnFilters}
