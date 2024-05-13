@@ -1,5 +1,11 @@
 import { useMemo } from "react";
-import { Container } from "@mui/material";
+import {
+  Container,
+  Stack,
+  Alert,
+  CircularProgress,
+  Typography,
+} from "@mui/material";
 import "./App.css";
 
 import {
@@ -9,6 +15,29 @@ import {
 
 import STUDENTS from "./students.json";
 // console.log(STUDENTS);
+import useSWR from "swr";
+
+const fetcher = (url) => fetch(url).then((r) => r.json());
+
+function DetailPanel({ row }) {
+  const { data, error, isLoading } = useSWR(
+    `https://jsonplaceholder.typicode.com/users/${row.id * 1 + 1}`,
+    fetcher
+  );
+
+  if (isLoading) return <CircularProgress />;
+  if (error) return <Alert severity="error">Error Loading User Info</Alert>;
+
+  // render data
+  return (
+    <Stack direction={"column"} spacing={2}>
+      <Typography>Phone 👉 {data.phone}</Typography>
+      <Typography>Website 👉 {data.website}</Typography>
+      <Typography>Company 👉 {data.company.name}</Typography>
+      <Typography>E-mail 👉 {data.email}</Typography>
+    </Stack>
+  );
+}
 
 function App() {
   //should be memoized or stable
@@ -65,9 +94,9 @@ function App() {
         header: "Street Address",
       },
       {
-        accessorKey:"address.state",
-        header:"State Name"
-      }
+        accessorKey: "address.state",
+        header: "State Name",
+      },
     ],
     []
   );
@@ -75,6 +104,7 @@ function App() {
   const table = useMaterialReactTable({
     columns,
     data: STUDENTS,
+    renderDetailPanel: ({ row }) => <DetailPanel row={row} />,
     initialState: { pagination: { pageSize: 5, pageIndex: 0 } },
   });
 
