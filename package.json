@@ -16,9 +16,11 @@
     "@mui/icons-material": "5.15.15",
     "@mui/material": "5.15.15",
     "@mui/x-date-pickers": "7.2.0",
+    "lodash": "^4.17.21",
     "material-react-table": "2.12.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "swr": "^2.2.5"
   },
   "devDependencies": {
     "@types/react": "18.2.66",
