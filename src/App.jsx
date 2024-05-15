@@ -65,16 +65,24 @@ function App() {
         header: "Street Address",
       },
       {
-        accessorKey:"address.state",
-        header:"State Name"
-      }
+        accessorKey: "address.state",
+        header: "State Name",
+      },
     ],
     []
   );
 
+  const rootData = useMemo(
+    () => STUDENTS.filter((student) => !student.parentId),
+    [STUDENTS]
+  );
+
   const table = useMaterialReactTable({
     columns,
-    data: STUDENTS,
+    data: rootData,
+    enableExpanding: true,
+    getSubRows: (row) =>
+      STUDENTS.filter((student) => student.parentId === row.id),
     initialState: { pagination: { pageSize: 5, pageIndex: 0 } },
   });
 
