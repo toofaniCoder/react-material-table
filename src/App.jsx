@@ -1,7 +1,8 @@
 import { useMemo } from "react";
-import { Container } from "@mui/material";
+import { Box, Button, Container } from "@mui/material";
 import "./App.css";
-
+import { mkConfig, generateCsv, download } from "export-to-csv";
+import { flatten } from "flat";
 import {
   MaterialReactTable,
   useMaterialReactTable,
@@ -10,7 +11,22 @@ import {
 import STUDENTS from "./students.json";
 // console.log(STUDENTS);
 
+const csvConfig = mkConfig({
+  fieldSeparator: ",",
+  decimalSeparator: ".",
+  useKeysAsHeaders: true,
+});
 function App() {
+  const handleExportAllData = () => {
+    const csv = generateCsv(csvConfig)(STUDENTS.map((el) => flatten(el)));
+    download(csvConfig)(csv);
+  };
+
+  const handleExportRows = (rows) => {
+    const rowData = rows.map((row) => flatten(row.original));
+    const csv = generateCsv(csvConfig)(rowData);
+    download(csvConfig)(csv);
+  };
   //should be memoized or stable
   const columns = useMemo(
     () => [
@@ -65,9 +81,9 @@ function App() {
         header: "Street Address",
       },
       {
-        accessorKey:"address.state",
-        header:"State Name"
-      }
+        accessorKey: "address.state",
+        header: "State Name",
+      },
     ],
     []
   );
@@ -75,6 +91,33 @@ function App() {
   const table = useMaterialReactTable({
     columns,
     data: STUDENTS,
+    enableRowSelection:true,
+    renderTopToolbarCustomActions: () => (
+      <Box>
+        <Button size="small" onClick={handleExportAllData}>
+          Export All Data
+        </Button>
+        <Button
+          onClick={() =>
+            handleExportRows(table.getPrePaginationRowModel().rows)
+          }
+        >
+          Export All Rows
+        </Button>{" "}
+        <Button
+          size="small"
+          onClick={() => handleExportRows(table.getRowModel().rows)}
+        >
+          Export Current Page
+        </Button>{" "}
+        <Button
+          size="small"
+          onClick={() => handleExportRows(table.getSelectedRowModel().rows)}
+        >
+          Export Selected Rows
+        </Button>
+      </Box>
+    ),
     initialState: { pagination: { pageSize: 5, pageIndex: 0 } },
   });
 
