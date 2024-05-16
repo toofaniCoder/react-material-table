@@ -1,0 +1,198 @@
+[{
+  "_id": {
+    "$oid": "6644d0bd802d4f65550fd228"
+  },
+  "parentId": null,
+  "hasChild": true,
+  "studentId": 1,
+  "name": "Dipali Marar",
+  "email": "Daevika_Gill46@yahoo.co.in",
+  "phone": "+918323331146",
+  "standard": 1,
+  "section": "B",
+  "age": 13,
+  "date_of_birth": "1995-11-17T00:08:59.890Z",
+  "date_of_admission": "2011-10-17T00:40:01.399Z",
+  "address": {
+    "pincode": "714 689",
+    "city": "Richardson",
+    "street": "15353 Mandakini Mill",
+    "state": "Nagaland"
+  }
+},
+{
+  "_id": {
+    "$oid": "6644d0bd802d4f65550fd229"
+  },
+  "hasChild": false,
+  "parentId": null,
+  "studentId": 2,
+  "name": "Deependra Tandon",
+  "email": "Charuvrat_Johar@hotmail.com",
+  "phone": "+91-910-7598718",
+  "standard": 11,
+  "section": "A",
+  "age": 14,
+  "date_of_birth": "1998-06-21T06:55:55.055Z",
+  "date_of_admission": "2016-02-18T04:21:15.235Z",
+  "address": {
+    "pincode": "826 790",
+    "city": "Brockton",
+    "street": "3121 Rakesh Mountain",
+    "state": "Jharkhand"
+  }
+},
+{
+  "_id": {
+    "$oid": "6644d0bd802d4f65550fd22a"
+  },
+  "hasChild": false,
+  "parentId": null,
+  "studentId": 3,
+  "name": "Aayushman Mehrotra",
+  "email": "Daevika_Nayar89@gmail.com",
+  "phone": "+91839-120-9798",
+  "standard": 6,
+  "section": "A",
+  "age": 13,
+  "date_of_birth": "1998-11-04T00:31:31.091Z",
+  "date_of_admission": "2012-02-14T06:35:29.720Z",
+  "address": {
+    "pincode": "821 034",
+    "city": "EscondstudentIdo",
+    "street": "0930 Arora Garden",
+    "state": "Haryana"
+  }
+},
+{
+  "_id": {
+    "$oid": "6644d0bd802d4f65550fd22b"
+  },
+  "hasChild": false,
+  "parentId": null,
+  "studentId": 4,
+  "name": "Subhashini Pothuvaal",
+  "email": "Ranjeet.Pillai@yahoo.co.in",
+  "phone": "+91670-615-6426",
+  "standard": 12,
+  "section": "B",
+  "age": 17,
+  "date_of_birth": "1998-09-15T06:37:34.146Z",
+  "date_of_admission": "2015-11-27T07:50:01.546Z",
+  "address": {
+    "pincode": "670 705",
+    "city": "Ogden",
+    "street": "578 Bandopadhyay Lock",
+    "state": "Chhattisgarh"
+  }
+},
+{
+  "_id": {
+    "$oid": "6644d0bd802d4f65550fd22c"
+  },
+  "hasChild": false,
+  "parentId": null,
+  "studentId": 5,
+  "name": "Sanka Verma",
+  "email": "Sukanya.Nayar@yahoo.co.in",
+  "phone": "+91874-454-9211",
+  "standard": 3,
+  "section": "A",
+  "age": 20,
+  "date_of_birth": "1998-09-12T21:37:32.823Z",
+  "date_of_admission": "2009-09-07T14:50:48.912Z",
+  "address": {
+    "pincode": "499 322",
+    "city": "Little Rock",
+    "street": "9814 Abbott Mountains",
+    "state": "West Bengal"
+  }
+},
+{
+  "_id": {
+    "$oid": "6644d0bd802d4f65550fd22d"
+  },
+  "parentId": 8,
+  "hasChild": false,
+  "studentId": 6,
+  "name": "Hiranmay Chattopadhyay",
+  "email": "Chakravartee_Trivedi@yahoo.co.in",
+  "phone": "+91-870-6172100",
+  "standard": 9,
+  "section": "C",
+  "age": 15,
+  "date_of_birth": "1997-02-26T10:36:06.225Z",
+  "date_of_admission": "2014-01-02T18:01:59.037Z",
+  "address": {
+    "pincode": "125 103",
+    "city": "Frederick",
+    "street": "22892 Panicker Loaf",
+    "state": "Lakshadweep"
+  }
+},
+{
+  "_id": {
+    "$oid": "6644d0bd802d4f65550fd22e"
+  },
+  "parentId": 8,
+  "hasChild": false,
+  "studentId": 7,
+  "name": "Deven Chaturvedi",
+  "email": "Sameer.Khatri@hotmail.com",
+  "phone": "+91659-509-2352",
+  "standard": 6,
+  "section": "C",
+  "age": 16,
+  "date_of_birth": "2000-10-18T02:31:34.758Z",
+  "date_of_admission": "2006-03-11T15:09:40.669Z",
+  "address": {
+    "pincode": "793 602",
+    "city": "Haverhill",
+    "street": "61014 Gautam Lodge",
+    "state": "Daman and Diu"
+  }
+},
+{
+  "_id": {
+    "$oid": "6644d0bd802d4f65550fd22f"
+  },
+  "hasChild": true,
+  "parentId": 1,
+  "studentId": 8,
+  "name": "ChstudentIdaatma Joshi",
+  "email": "Lal15@yahoo.co.in",
+  "phone": "+917597361818",
+  "standard": 12,
+  "section": "C",
+  "age": 8,
+  "date_of_birth": "1999-02-10T04:33:54.628Z",
+  "date_of_admission": "2015-06-25T03:51:19.058Z",
+  "address": {
+    "pincode": "780 275",
+    "city": "Pine Bluff",
+    "street": "432 Jha Haven",
+    "state": "Maharashtra"
+  }
+},
+{
+  "_id": {
+    "$oid": "6644d0bd802d4f65550fd230"
+  },
+  "hasChild": false,
+  "parentId": 1,
+  "studentId": 9,
+  "name": "Chatur Sethi",
+  "email": "Annapurna.Gupta36@gmail.com",
+  "phone": "+91-995-0524601",
+  "standard": 11,
+  "section": "A",
+  "age": 11,
+  "date_of_birth": "1992-09-09T20:28:14.110Z",
+  "date_of_admission": "2011-12-19T01:04:29.279Z",
+  "address": {
+    "pincode": "105 132",
+    "city": "Virginia Beach",
+    "street": "0946 Balagovind Villages",
+    "state": "Mizoram"
+  }
+}]
