@@ -92,7 +92,7 @@ function App() {
     columns,
     data: STUDENTS,
     enableRowSelection:true,
-    renderTopToolbarCustomActions: () => (
+    renderTopToolbarCustomActions: ({table}) => (
       <Box>
         <Button size="small" onClick={handleExportAllData}>
           Export All Data
