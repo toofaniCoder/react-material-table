@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import { Container } from "@mui/material";
+import { Button, ButtonBase, Container } from "@mui/material";
 import "./App.css";
 
 import {
@@ -8,6 +8,7 @@ import {
 } from "material-react-table";
 
 import STUDENTS from "./students.json";
+import { Link } from "react-router-dom";
 // console.log(STUDENTS);
 
 function App() {
@@ -65,9 +66,9 @@ function App() {
         header: "Street Address",
       },
       {
-        accessorKey:"address.state",
-        header:"State Name"
-      }
+        accessorKey: "address.state",
+        header: "State Name",
+      },
     ],
     []
   );
@@ -75,6 +76,32 @@ function App() {
   const table = useMaterialReactTable({
     columns,
     data: STUDENTS,
+    // muiTableBodyCellProps: (x) => ({
+    //   onDoubleClick: (event) => {
+    //     event.currentTarget.style.background = "red";
+    //     console.info(x);
+    //   },
+    //   sx: {
+    //     cursor: "pointer",
+    //   },
+    // }),
+    muiEditTextFieldProps: ({ cell }) => ({
+      onBlur: (event) => {
+        console.info(event, cell.id);
+      },
+    }),
+    muiTableBodyRowProps: ({ row }) => ({
+      component: Link,
+      to: `/students/${row.original.id}`,
+      onClick: (event) => {
+        console.info(event, row.id);
+      },
+      sx: {
+        textDecoration:"none",
+        p: 0,
+        cursor: "pointer", //you might want to change the cursor too when adding an onClick
+      },
+    }),
     initialState: { pagination: { pageSize: 5, pageIndex: 0 } },
   });
 
