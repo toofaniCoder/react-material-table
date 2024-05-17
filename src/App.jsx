@@ -10,7 +10,7 @@ import { jsPDF } from "jspdf"; //or use your library of choice here
 import autoTable from "jspdf-autotable";
 import STUDENTS from "./students.json";
 // console.log(STUDENTS);
-
+import _ from "lodash";
 function App() {
   //should be memoized or stable
   const columns = useMemo(
@@ -77,7 +77,7 @@ function App() {
       orientation: "landscape",
     });
     const tableData = rows.map((row) =>
-      columns.map((column) => row.original[column.accessorKey])
+      columns.map((column) => _.get(row.original, column.accessorKey))
     );
     const tableHeaders = columns.map((c) => c.header);
     autoTable(doc, {
@@ -106,8 +106,12 @@ function App() {
         >
           Export Current Page
         </Button>{" "}
-        <Button      onClick={() => handleExportRows(table.getSelectedRowModel().rows)}
-       size="small">Export Selected Rows</Button>
+        <Button
+          onClick={() => handleExportRows(table.getSelectedRowModel().rows)}
+          size="small"
+        >
+          Export Selected Rows
+        </Button>
       </Box>
     ),
     initialState: { pagination: { pageSize: 5, pageIndex: 0 } },
