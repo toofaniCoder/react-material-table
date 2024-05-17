@@ -91,7 +91,7 @@ function App() {
     columns,
     data: STUDENTS,
     enableRowSelection: true,
-    renderTopToolbarCustomActions: () => (
+    renderTopToolbarCustomActions: ({ table }) => (
       <Box>
         <Button
           onClick={() =>
