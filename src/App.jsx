@@ -1,15 +1,15 @@
 import { useMemo } from "react";
-import { Container } from "@mui/material";
+import { Box, Button, Container } from "@mui/material";
 import "./App.css";
-
 import {
   MaterialReactTable,
   useMaterialReactTable,
 } from "material-react-table";
 
+import { downloadExcel } from "react-export-table-to-excel";
 import STUDENTS from "./students.json";
 // console.log(STUDENTS);
-
+import _ from "lodash";
 function App() {
   //should be memoized or stable
   const columns = useMemo(
@@ -65,16 +65,55 @@ function App() {
         header: "Street Address",
       },
       {
-        accessorKey:"address.state",
-        header:"State Name"
-      }
+        accessorKey: "address.state",
+        header: "State Name",
+      },
     ],
     []
   );
+  const handleExportRows = (rows) => {
+    const tableData = rows.map((row) =>
+      columns.map((column) => _.get(row.original, column.accessorKey))
+    );
+    const tableHeaders = columns.map((c) => c.header);
 
+    downloadExcel({
+      fileName: "material-react-table-to-excel",
+      sheet: "material-react-table-to-excel",
+      tablePayload: {
+        header: tableHeaders,
+        // accept two different data structures
+        body: tableData,
+      },
+    });
+  };
   const table = useMaterialReactTable({
     columns,
     data: STUDENTS,
+    enableRowSelection: true,
+    renderTopToolbarCustomActions: ({ table }) => (
+      <Box>
+        <Button
+          onClick={() =>
+            handleExportRows(table.getPrePaginationRowModel().rows)
+          }
+        >
+          Export All Rows
+        </Button>{" "}
+        <Button
+          size="small"
+          onClick={() => handleExportRows(table.getRowModel().rows)}
+        >
+          Export Current Page
+        </Button>{" "}
+        <Button
+          onClick={() => handleExportRows(table.getSelectedRowModel().rows)}
+          size="small"
+        >
+          Export Selected Rows
+        </Button>
+      </Box>
+    ),
     initialState: { pagination: { pageSize: 5, pageIndex: 0 } },
   });
 
