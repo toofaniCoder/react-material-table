@@ -16,6 +16,9 @@
     "@mui/icons-material": "5.15.15",
     "@mui/material": "5.15.15",
     "@mui/x-date-pickers": "7.2.0",
+    "flat": "^6.0.1",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.8.2",
     "material-react-table": "2.12.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
