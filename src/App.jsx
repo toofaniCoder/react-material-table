@@ -1,5 +1,6 @@
 import { useMemo } from "react";
-import { Container } from "@mui/material";
+import { Container, Box } from "@mui/material";
+import { BarChart } from "@mui/x-charts/BarChart";
 import "./App.css";
 
 import {
@@ -8,6 +9,7 @@ import {
 } from "material-react-table";
 
 import STUDENTS from "./students.json";
+import { pink } from "@mui/material/colors";
 // console.log(STUDENTS);
 
 function App() {
@@ -65,9 +67,9 @@ function App() {
         header: "Street Address",
       },
       {
-        accessorKey:"address.state",
-        header:"State Name"
-      }
+        accessorKey: "address.state",
+        header: "State Name",
+      },
     ],
     []
   );
@@ -75,6 +77,32 @@ function App() {
   const table = useMaterialReactTable({
     columns,
     data: STUDENTS,
+    muiDetailPanelProps: {
+      sx: {
+        bgcolor: pink[50],
+      },
+    },
+    renderDetailPanel: ({ row }) => {
+      return (
+        <Box
+          sx={{
+            width: "1100px",
+            height: "300px",
+          }}
+        >
+          <BarChart
+            sx={{ maxWidth: "90%", mx: "auto" }}
+            series={[{ data: Object.values(row.original.marks) }]}
+            height={290}
+            xAxis={[
+              { data: Object.keys(row.original.marks), scaleType: "band" },
+            ]}
+            colors={[pink[400]]}
+            margin={{ top: 10, bottom: 30, left: 40, right: 10 }}
+          />
+        </Box>
+      );
+    },
     initialState: { pagination: { pageSize: 5, pageIndex: 0 } },
   });
 

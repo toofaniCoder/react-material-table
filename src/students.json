@@ -14,6 +14,19 @@
       "city": "Richardson",
       "street": "15353 Mandakini Mill",
       "state": "Nagaland"
+    },
+    "marks": {
+      "english": 39,
+      "maths": 58,
+      "science": 98,
+      "sst": 52,
+      "hindi": 98,
+      "computer": 96,
+      "civics": 96,
+      "geography": 80,
+      "physics": 52,
+      "chemistry": 95,
+      "biology": 48
     }
   },
   {
@@ -31,6 +44,19 @@
       "city": "Brockton",
       "street": "3121 Rakesh Mountain",
       "state": "Jharkhand"
+    },
+    "marks": {
+      "english": 85,
+      "maths": 93,
+      "science": 60,
+      "sst": 67,
+      "hindi": 46,
+      "computer": 79,
+      "civics": 42,
+      "geography": 76,
+      "physics": 96,
+      "chemistry": 58,
+      "biology": 58
     }
   },
   {
@@ -48,6 +74,19 @@
       "city": "Escondido",
       "street": "0930 Arora Garden",
       "state": "Haryana"
+    },
+    "marks": {
+      "english": 76,
+      "maths": 50,
+      "science": 61,
+      "sst": 83,
+      "hindi": 49,
+      "computer": 55,
+      "civics": 43,
+      "geography": 68,
+      "physics": 83,
+      "chemistry": 35,
+      "biology": 81
     }
   },
   {
@@ -65,6 +104,19 @@
       "city": "Ogden",
       "street": "578 Bandopadhyay Lock",
       "state": "Chhattisgarh"
+    },
+    "marks": {
+      "english": 62,
+      "maths": 90,
+      "science": 87,
+      "sst": 48,
+      "hindi": 64,
+      "computer": 80,
+      "civics": 53,
+      "geography": 68,
+      "physics": 88,
+      "chemistry": 81,
+      "biology": 53
     }
   },
   {
@@ -82,6 +134,19 @@
       "city": "Little Rock",
       "street": "9814 Abbott Mountains",
       "state": "West Bengal"
+    },
+    "marks": {
+      "english": 58,
+      "maths": 71,
+      "science": 98,
+      "sst": 78,
+      "hindi": 58,
+      "computer": 68,
+      "civics": 76,
+      "geography": 76,
+      "physics": 94,
+      "chemistry": 68,
+      "biology": 50
     }
   },
   {
@@ -99,6 +164,19 @@
       "city": "Frederick",
       "street": "22892 Panicker Loaf",
       "state": "Lakshadweep"
+    },
+    "marks": {
+      "english": 42,
+      "maths": 74,
+      "science": 40,
+      "sst": 33,
+      "hindi": 91,
+      "computer": 65,
+      "civics": 78,
+      "geography": 91,
+      "physics": 85,
+      "chemistry": 45,
+      "biology": 96
     }
   },
   {
@@ -116,6 +194,19 @@
       "city": "Haverhill",
       "street": "61014 Gautam Lodge",
       "state": "Daman and Diu"
+    },
+    "marks": {
+      "english": 33,
+      "maths": 76,
+      "science": 49,
+      "sst": 96,
+      "hindi": 39,
+      "computer": 58,
+      "civics": 66,
+      "geography": 95,
+      "physics": 75,
+      "chemistry": 90,
+      "biology": 48
     }
   },
   {
@@ -133,6 +224,19 @@
       "city": "Pine Bluff",
       "street": "432 Jha Haven",
       "state": "Maharashtra"
+    },
+    "marks": {
+      "english": 40,
+      "maths": 92,
+      "science": 95,
+      "sst": 96,
+      "hindi": 81,
+      "computer": 96,
+      "civics": 78,
+      "geography": 76,
+      "physics": 43,
+      "chemistry": 77,
+      "biology": 61
     }
   },
   {
@@ -150,6 +254,19 @@
       "city": "Virginia Beach",
       "street": "0946 Balagovind Villages",
       "state": "Mizoram"
+    },
+    "marks": {
+      "english": 38,
+      "maths": 37,
+      "science": 57,
+      "sst": 80,
+      "hindi": 89,
+      "computer": 83,
+      "civics": 98,
+      "geography": 37,
+      "physics": 86,
+      "chemistry": 33,
+      "biology": 38
     }
   },
   {
@@ -167,6 +284,19 @@
       "city": "Glendora",
       "street": "004 Navin Crossing",
       "state": "Kerala"
+    },
+    "marks": {
+      "english": 35,
+      "maths": 85,
+      "science": 84,
+      "sst": 41,
+      "hindi": 73,
+      "computer": 98,
+      "civics": 100,
+      "geography": 88,
+      "physics": 42,
+      "chemistry": 67,
+      "biology": 62
     }
   },
   {
@@ -184,6 +314,19 @@
       "city": "Kentwood",
       "street": "126 Umang Expressway",
       "state": "Tripura"
+    },
+    "marks": {
+      "english": 62,
+      "maths": 96,
+      "science": 52,
+      "sst": 50,
+      "hindi": 53,
+      "computer": 65,
+      "civics": 52,
+      "geography": 92,
+      "physics": 61,
+      "chemistry": 47,
+      "biology": 53
     }
   },
   {
@@ -201,6 +344,19 @@
       "city": "South Jordan",
       "street": "9420 Chatur Loaf",
       "state": "Karnataka"
+    },
+    "marks": {
+      "english": 42,
+      "maths": 50,
+      "science": 55,
+      "sst": 83,
+      "hindi": 37,
+      "computer": 47,
+      "civics": 48,
+      "geography": 36,
+      "physics": 46,
+      "chemistry": 67,
+      "biology": 91
     }
   },
   {
@@ -218,6 +374,19 @@
       "city": "Coachella",
       "street": "71891 Sarla Plains",
       "state": "Karnataka"
+    },
+    "marks": {
+      "english": 38,
+      "maths": 49,
+      "science": 52,
+      "sst": 56,
+      "hindi": 94,
+      "computer": 65,
+      "civics": 75,
+      "geography": 53,
+      "physics": 87,
+      "chemistry": 86,
+      "biology": 57
     }
   },
   {
@@ -235,6 +404,19 @@
       "city": "Pine Bluff",
       "street": "7075 Naik Fall",
       "state": "Arunachal Pradesh"
+    },
+    "marks": {
+      "english": 71,
+      "maths": 78,
+      "science": 34,
+      "sst": 46,
+      "hindi": 62,
+      "computer": 69,
+      "civics": 86,
+      "geography": 90,
+      "physics": 44,
+      "chemistry": 96,
+      "biology": 67
     }
   },
   {
@@ -252,6 +434,19 @@
       "city": "Centreville",
       "street": "523 Asan Lakes",
       "state": "Meghalaya"
+    },
+    "marks": {
+      "english": 82,
+      "maths": 97,
+      "science": 86,
+      "sst": 62,
+      "hindi": 49,
+      "computer": 72,
+      "civics": 80,
+      "geography": 74,
+      "physics": 41,
+      "chemistry": 96,
+      "biology": 38
     }
   },
   {
@@ -269,6 +464,19 @@
       "city": "Rockford",
       "street": "9565 Abhaidev Route",
       "state": "Daman and Diu"
+    },
+    "marks": {
+      "english": 60,
+      "maths": 77,
+      "science": 57,
+      "sst": 80,
+      "hindi": 50,
+      "computer": 76,
+      "civics": 40,
+      "geography": 58,
+      "physics": 90,
+      "chemistry": 79,
+      "biology": 70
     }
   },
   {
@@ -286,6 +494,19 @@
       "city": "Columbus",
       "street": "4987 Bhagavaan Run",
       "state": "Odisha"
+    },
+    "marks": {
+      "english": 72,
+      "maths": 72,
+      "science": 80,
+      "sst": 60,
+      "hindi": 64,
+      "computer": 44,
+      "civics": 90,
+      "geography": 71,
+      "physics": 59,
+      "chemistry": 87,
+      "biology": 72
     }
   },
   {
@@ -303,6 +524,19 @@
       "city": "Lawrence",
       "street": "1629 Adhrit Walks",
       "state": "Manipur"
+    },
+    "marks": {
+      "english": 90,
+      "maths": 41,
+      "science": 85,
+      "sst": 81,
+      "hindi": 40,
+      "computer": 44,
+      "civics": 96,
+      "geography": 70,
+      "physics": 95,
+      "chemistry": 33,
+      "biology": 86
     }
   },
   {
@@ -320,6 +554,19 @@
       "city": "Conroe",
       "street": "6008 Malik Walk",
       "state": "Goa"
+    },
+    "marks": {
+      "english": 61,
+      "maths": 84,
+      "science": 68,
+      "sst": 90,
+      "hindi": 53,
+      "computer": 52,
+      "civics": 56,
+      "geography": 91,
+      "physics": 78,
+      "chemistry": 81,
+      "biology": 63
     }
   },
   {
@@ -337,6 +584,19 @@
       "city": "Santee",
       "street": "17826 Iyengar Street",
       "state": "Himachal Pradesh"
+    },
+    "marks": {
+      "english": 83,
+      "maths": 52,
+      "science": 65,
+      "sst": 67,
+      "hindi": 64,
+      "computer": 52,
+      "civics": 95,
+      "geography": 38,
+      "physics": 99,
+      "chemistry": 34,
+      "biology": 100
     }
   },
   {
@@ -354,6 +614,19 @@
       "city": "Plantation",
       "street": "7591 Udit Forges",
       "state": "West Bengal"
+    },
+    "marks": {
+      "english": 82,
+      "maths": 74,
+      "science": 33,
+      "sst": 68,
+      "hindi": 92,
+      "computer": 46,
+      "civics": 63,
+      "geography": 39,
+      "physics": 40,
+      "chemistry": 97,
+      "biology": 49
     }
   },
   {
@@ -371,6 +644,19 @@
       "city": "Springfield",
       "street": "65075 Darshwana Lock",
       "state": "Dadar and Nagar Haveli"
+    },
+    "marks": {
+      "english": 88,
+      "maths": 72,
+      "science": 44,
+      "sst": 33,
+      "hindi": 78,
+      "computer": 98,
+      "civics": 44,
+      "geography": 69,
+      "physics": 37,
+      "chemistry": 59,
+      "biology": 46
     }
   },
   {
@@ -388,6 +674,19 @@
       "city": "Greenville",
       "street": "42290 Dhyanesh Parks",
       "state": "Tamil Nadu"
+    },
+    "marks": {
+      "english": 82,
+      "maths": 57,
+      "science": 37,
+      "sst": 76,
+      "hindi": 64,
+      "computer": 80,
+      "civics": 64,
+      "geography": 81,
+      "physics": 83,
+      "chemistry": 52,
+      "biology": 35
     }
   },
   {
@@ -405,6 +704,19 @@
       "city": "Moline",
       "street": "67187 Bhattathiri Route",
       "state": "Nagaland"
+    },
+    "marks": {
+      "english": 50,
+      "maths": 80,
+      "science": 88,
+      "sst": 68,
+      "hindi": 93,
+      "computer": 48,
+      "civics": 49,
+      "geography": 93,
+      "physics": 80,
+      "chemistry": 98,
+      "biology": 63
     }
   },
   {
@@ -422,6 +734,19 @@
       "city": "Yucaipa",
       "street": "695 Bandopadhyay Crossroad",
       "state": "Maharashtra"
+    },
+    "marks": {
+      "english": 67,
+      "maths": 59,
+      "science": 38,
+      "sst": 56,
+      "hindi": 90,
+      "computer": 60,
+      "civics": 45,
+      "geography": 97,
+      "physics": 44,
+      "chemistry": 82,
+      "biology": 48
     }
   },
   {
@@ -439,6 +764,19 @@
       "city": "Cape Coral",
       "street": "402 Dulari Plaza",
       "state": "Bihar"
+    },
+    "marks": {
+      "english": 50,
+      "maths": 91,
+      "science": 40,
+      "sst": 78,
+      "hindi": 99,
+      "computer": 33,
+      "civics": 36,
+      "geography": 80,
+      "physics": 72,
+      "chemistry": 55,
+      "biology": 99
     }
   },
   {
@@ -456,6 +794,19 @@
       "city": "Temecula",
       "street": "3906 Chandraprabha Curve",
       "state": "Uttarakhand"
+    },
+    "marks": {
+      "english": 97,
+      "maths": 39,
+      "science": 93,
+      "sst": 46,
+      "hindi": 45,
+      "computer": 67,
+      "civics": 39,
+      "geography": 96,
+      "physics": 91,
+      "chemistry": 77,
+      "biology": 71
     }
   },
   {
@@ -473,6 +824,19 @@
       "city": "Nashua",
       "street": "601 Somnath Light",
       "state": "Bihar"
+    },
+    "marks": {
+      "english": 67,
+      "maths": 61,
+      "science": 58,
+      "sst": 55,
+      "hindi": 99,
+      "computer": 97,
+      "civics": 50,
+      "geography": 56,
+      "physics": 97,
+      "chemistry": 88,
+      "biology": 45
     }
   },
   {
@@ -490,6 +854,19 @@
       "city": "Paterson",
       "street": "3759 Girindra Squares",
       "state": "Lakshadweep"
+    },
+    "marks": {
+      "english": 92,
+      "maths": 87,
+      "science": 73,
+      "sst": 61,
+      "hindi": 70,
+      "computer": 52,
+      "civics": 50,
+      "geography": 44,
+      "physics": 67,
+      "chemistry": 82,
+      "biology": 60
     }
   },
   {
@@ -507,6 +884,19 @@
       "city": "Auburn",
       "street": "5295 Kaur Junctions",
       "state": "Delhi"
+    },
+    "marks": {
+      "english": 59,
+      "maths": 54,
+      "science": 54,
+      "sst": 96,
+      "hindi": 91,
+      "computer": 56,
+      "civics": 35,
+      "geography": 85,
+      "physics": 90,
+      "chemistry": 95,
+      "biology": 49
     }
   },
   {
@@ -524,6 +914,19 @@
       "city": "Salina",
       "street": "76148 Kaul Plains",
       "state": "Odisha"
+    },
+    "marks": {
+      "english": 35,
+      "maths": 58,
+      "science": 85,
+      "sst": 40,
+      "hindi": 85,
+      "computer": 85,
+      "civics": 33,
+      "geography": 42,
+      "physics": 69,
+      "chemistry": 93,
+      "biology": 47
     }
   },
   {
@@ -541,6 +944,19 @@
       "city": "Apopka",
       "street": "091 Triloki Way",
       "state": "Uttarakhand"
+    },
+    "marks": {
+      "english": 81,
+      "maths": 79,
+      "science": 61,
+      "sst": 68,
+      "hindi": 87,
+      "computer": 81,
+      "civics": 93,
+      "geography": 75,
+      "physics": 95,
+      "chemistry": 72,
+      "biology": 71
     }
   },
   {
@@ -558,6 +974,19 @@
       "city": "Kalamazoo",
       "street": "19521 Guneta Greens",
       "state": "Odisha"
+    },
+    "marks": {
+      "english": 82,
+      "maths": 63,
+      "science": 80,
+      "sst": 54,
+      "hindi": 49,
+      "computer": 36,
+      "civics": 88,
+      "geography": 70,
+      "physics": 65,
+      "chemistry": 41,
+      "biology": 86
     }
   },
   {
@@ -575,6 +1004,19 @@
       "city": "Altamonte Springs",
       "street": "001 Girik Freeway",
       "state": "Manipur"
+    },
+    "marks": {
+      "english": 86,
+      "maths": 77,
+      "science": 33,
+      "sst": 67,
+      "hindi": 83,
+      "computer": 66,
+      "civics": 50,
+      "geography": 100,
+      "physics": 66,
+      "chemistry": 67,
+      "biology": 50
     }
   },
   {
@@ -592,6 +1034,19 @@
       "city": "Sheboygan",
       "street": "8830 Rana Isle",
       "state": "Goa"
+    },
+    "marks": {
+      "english": 74,
+      "maths": 46,
+      "science": 77,
+      "sst": 100,
+      "hindi": 62,
+      "computer": 58,
+      "civics": 94,
+      "geography": 56,
+      "physics": 55,
+      "chemistry": 73,
+      "biology": 41
     }
   },
   {
@@ -609,6 +1064,19 @@
       "city": "Pittsfield",
       "street": "214 Sumitra Via",
       "state": "Mizoram"
+    },
+    "marks": {
+      "english": 95,
+      "maths": 39,
+      "science": 100,
+      "sst": 55,
+      "hindi": 39,
+      "computer": 47,
+      "civics": 40,
+      "geography": 74,
+      "physics": 55,
+      "chemistry": 42,
+      "biology": 69
     }
   },
   {
@@ -626,6 +1094,19 @@
       "city": "Citrus Heights",
       "street": "62386 Shukla Rest",
       "state": "Lakshadweep"
+    },
+    "marks": {
+      "english": 55,
+      "maths": 72,
+      "science": 81,
+      "sst": 62,
+      "hindi": 49,
+      "computer": 54,
+      "civics": 43,
+      "geography": 99,
+      "physics": 53,
+      "chemistry": 84,
+      "biology": 44
     }
   },
   {
@@ -643,6 +1124,19 @@
       "city": "Palm Bay",
       "street": "1959 Iyer Rapids",
       "state": "Daman and Diu"
+    },
+    "marks": {
+      "english": 50,
+      "maths": 41,
+      "science": 93,
+      "sst": 43,
+      "hindi": 90,
+      "computer": 61,
+      "civics": 66,
+      "geography": 60,
+      "physics": 40,
+      "chemistry": 67,
+      "biology": 74
     }
   },
   {
@@ -660,6 +1154,19 @@
       "city": "Vallejo",
       "street": "730 Namboothiri Center",
       "state": "Madya Pradesh"
+    },
+    "marks": {
+      "english": 51,
+      "maths": 77,
+      "science": 60,
+      "sst": 45,
+      "hindi": 71,
+      "computer": 68,
+      "civics": 48,
+      "geography": 77,
+      "physics": 47,
+      "chemistry": 54,
+      "biology": 66
     }
   },
   {
@@ -677,6 +1184,19 @@
       "city": "Garden Grove",
       "street": "5427 Kamla Well",
       "state": "Uttar Pradesh"
+    },
+    "marks": {
+      "english": 51,
+      "maths": 39,
+      "science": 82,
+      "sst": 44,
+      "hindi": 66,
+      "computer": 38,
+      "civics": 43,
+      "geography": 88,
+      "physics": 37,
+      "chemistry": 90,
+      "biology": 81
     }
   },
   {
@@ -694,6 +1214,19 @@
       "city": "Murfreesboro",
       "street": "4231 Menon Mills",
       "state": "Nagaland"
+    },
+    "marks": {
+      "english": 78,
+      "maths": 98,
+      "science": 49,
+      "sst": 86,
+      "hindi": 55,
+      "computer": 64,
+      "civics": 49,
+      "geography": 80,
+      "physics": 37,
+      "chemistry": 33,
+      "biology": 93
     }
   },
   {
@@ -711,6 +1244,19 @@
       "city": "Mesquite",
       "street": "6414 Asan Gateway",
       "state": "Chhattisgarh"
+    },
+    "marks": {
+      "english": 99,
+      "maths": 74,
+      "science": 94,
+      "sst": 99,
+      "hindi": 96,
+      "computer": 45,
+      "civics": 81,
+      "geography": 48,
+      "physics": 85,
+      "chemistry": 33,
+      "biology": 49
     }
   },
   {
@@ -728,6 +1274,19 @@
       "city": "Modesto",
       "street": "38354 Prasad Cliffs",
       "state": "Andra Pradesh"
+    },
+    "marks": {
+      "english": 74,
+      "maths": 87,
+      "science": 63,
+      "sst": 76,
+      "hindi": 35,
+      "computer": 65,
+      "civics": 83,
+      "geography": 81,
+      "physics": 39,
+      "chemistry": 58,
+      "biology": 36
     }
   },
   {
@@ -745,6 +1304,19 @@
       "city": "Charleston",
       "street": "030 Raj Isle",
       "state": "Tamil Nadu"
+    },
+    "marks": {
+      "english": 34,
+      "maths": 88,
+      "science": 77,
+      "sst": 76,
+      "hindi": 44,
+      "computer": 55,
+      "civics": 82,
+      "geography": 55,
+      "physics": 82,
+      "chemistry": 60,
+      "biology": 80
     }
   },
   {
@@ -762,6 +1334,19 @@
       "city": "Port Charlotte",
       "street": "542 Sudeva Gardens",
       "state": "Andaman and Nicobar Islands"
+    },
+    "marks": {
+      "english": 74,
+      "maths": 44,
+      "science": 84,
+      "sst": 67,
+      "hindi": 69,
+      "computer": 46,
+      "civics": 44,
+      "geography": 44,
+      "physics": 72,
+      "chemistry": 87,
+      "biology": 44
     }
   },
   {
@@ -779,6 +1364,19 @@
       "city": "Strongsville",
       "street": "079 Nawal Port",
       "state": "Sikkim"
+    },
+    "marks": {
+      "english": 84,
+      "maths": 94,
+      "science": 52,
+      "sst": 76,
+      "hindi": 41,
+      "computer": 34,
+      "civics": 73,
+      "geography": 55,
+      "physics": 98,
+      "chemistry": 76,
+      "biology": 79
     }
   },
   {
@@ -796,6 +1394,19 @@
       "city": "Maple Grove",
       "street": "160 Ananda Garden",
       "state": "Tamil Nadu"
+    },
+    "marks": {
+      "english": 63,
+      "maths": 70,
+      "science": 92,
+      "sst": 38,
+      "hindi": 34,
+      "computer": 38,
+      "civics": 41,
+      "geography": 90,
+      "physics": 56,
+      "chemistry": 39,
+      "biology": 90
     }
   },
   {
@@ -813,6 +1424,19 @@
       "city": "Quincy",
       "street": "4370 Devvrat Harbors",
       "state": "Andaman and Nicobar Islands"
+    },
+    "marks": {
+      "english": 88,
+      "maths": 81,
+      "science": 66,
+      "sst": 66,
+      "hindi": 82,
+      "computer": 58,
+      "civics": 63,
+      "geography": 79,
+      "physics": 35,
+      "chemistry": 72,
+      "biology": 62
     }
   },
   {
@@ -830,6 +1454,19 @@
       "city": "Greenville",
       "street": "6433 Singh Stravenue",
       "state": "Jammu and Kashmir"
+    },
+    "marks": {
+      "english": 83,
+      "maths": 79,
+      "science": 100,
+      "sst": 62,
+      "hindi": 61,
+      "computer": 76,
+      "civics": 45,
+      "geography": 67,
+      "physics": 48,
+      "chemistry": 77,
+      "biology": 74
     }
   },
   {
@@ -847,6 +1484,19 @@
       "city": "South San Francisco",
       "street": "47965 Kanaka Pine",
       "state": "Maharashtra"
+    },
+    "marks": {
+      "english": 47,
+      "maths": 98,
+      "science": 33,
+      "sst": 40,
+      "hindi": 87,
+      "computer": 92,
+      "civics": 70,
+      "geography": 46,
+      "physics": 37,
+      "chemistry": 93,
+      "biology": 74
     }
   },
   {
@@ -864,6 +1514,19 @@
       "city": "Potomac",
       "street": "4948 Rohit Spurs",
       "state": "Uttarakhand"
+    },
+    "marks": {
+      "english": 70,
+      "maths": 91,
+      "science": 47,
+      "sst": 95,
+      "hindi": 40,
+      "computer": 57,
+      "civics": 82,
+      "geography": 85,
+      "physics": 88,
+      "chemistry": 56,
+      "biology": 42
     }
   },
   {
@@ -881,6 +1544,19 @@
       "city": "Bethlehem",
       "street": "0104 Akshaj Estates",
       "state": "Maharashtra"
+    },
+    "marks": {
+      "english": 56,
+      "maths": 73,
+      "science": 67,
+      "sst": 70,
+      "hindi": 42,
+      "computer": 33,
+      "civics": 97,
+      "geography": 83,
+      "physics": 71,
+      "chemistry": 34,
+      "biology": 91
     }
   },
   {
@@ -898,6 +1574,19 @@
       "city": "Burbank",
       "street": "607 Jyotsana Summit",
       "state": "Telangana"
+    },
+    "marks": {
+      "english": 97,
+      "maths": 93,
+      "science": 90,
+      "sst": 57,
+      "hindi": 55,
+      "computer": 63,
+      "civics": 52,
+      "geography": 43,
+      "physics": 50,
+      "chemistry": 69,
+      "biology": 55
     }
   },
   {
@@ -915,6 +1604,19 @@
       "city": "Greensboro",
       "street": "1051 Devar Estates",
       "state": "Daman and Diu"
+    },
+    "marks": {
+      "english": 41,
+      "maths": 56,
+      "science": 64,
+      "sst": 64,
+      "hindi": 62,
+      "computer": 71,
+      "civics": 80,
+      "geography": 92,
+      "physics": 62,
+      "chemistry": 47,
+      "biology": 52
     }
   },
   {
@@ -932,6 +1634,19 @@
       "city": "Parker",
       "street": "26067 Khan Locks",
       "state": "Manipur"
+    },
+    "marks": {
+      "english": 84,
+      "maths": 57,
+      "science": 61,
+      "sst": 88,
+      "hindi": 73,
+      "computer": 90,
+      "civics": 85,
+      "geography": 83,
+      "physics": 85,
+      "chemistry": 37,
+      "biology": 74
     }
   },
   {
@@ -949,6 +1664,19 @@
       "city": "Waterloo",
       "street": "0999 Bhat Extension",
       "state": "Jammu and Kashmir"
+    },
+    "marks": {
+      "english": 98,
+      "maths": 67,
+      "science": 89,
+      "sst": 52,
+      "hindi": 33,
+      "computer": 74,
+      "civics": 87,
+      "geography": 65,
+      "physics": 54,
+      "chemistry": 74,
+      "biology": 34
     }
   },
   {
@@ -966,6 +1694,19 @@
       "city": "Paterson",
       "street": "8340 Poornima Ranch",
       "state": "Tamil Nadu"
+    },
+    "marks": {
+      "english": 37,
+      "maths": 48,
+      "science": 66,
+      "sst": 51,
+      "hindi": 70,
+      "computer": 40,
+      "civics": 57,
+      "geography": 45,
+      "physics": 96,
+      "chemistry": 100,
+      "biology": 89
     }
   },
   {
@@ -983,6 +1724,19 @@
       "city": "Midwest City",
       "street": "261 Aditeya Forge",
       "state": "Andra Pradesh"
+    },
+    "marks": {
+      "english": 42,
+      "maths": 48,
+      "science": 49,
+      "sst": 61,
+      "hindi": 89,
+      "computer": 86,
+      "civics": 60,
+      "geography": 49,
+      "physics": 42,
+      "chemistry": 100,
+      "biology": 40
     }
   },
   {
@@ -1000,6 +1754,19 @@
       "city": "Suffolk",
       "street": "29337 Namboothiri Shoal",
       "state": "Pondicherr"
+    },
+    "marks": {
+      "english": 59,
+      "maths": 94,
+      "science": 79,
+      "sst": 61,
+      "hindi": 38,
+      "computer": 40,
+      "civics": 48,
+      "geography": 58,
+      "physics": 59,
+      "chemistry": 66,
+      "biology": 51
     }
   },
   {
@@ -1017,6 +1784,19 @@
       "city": "Burnsville",
       "street": "91150 Gandhi Mission",
       "state": "Uttarakhand"
+    },
+    "marks": {
+      "english": 51,
+      "maths": 59,
+      "science": 91,
+      "sst": 55,
+      "hindi": 78,
+      "computer": 98,
+      "civics": 52,
+      "geography": 73,
+      "physics": 59,
+      "chemistry": 90,
+      "biology": 60
     }
   },
   {
@@ -1034,6 +1814,19 @@
       "city": "Boynton Beach",
       "street": "39881 Khatri Summit",
       "state": "Chhattisgarh"
+    },
+    "marks": {
+      "english": 38,
+      "maths": 54,
+      "science": 38,
+      "sst": 38,
+      "hindi": 65,
+      "computer": 90,
+      "civics": 76,
+      "geography": 90,
+      "physics": 42,
+      "chemistry": 100,
+      "biology": 68
     }
   },
   {
@@ -1051,6 +1844,19 @@
       "city": "Sacramento",
       "street": "050 Shukla Spurs",
       "state": "Odisha"
+    },
+    "marks": {
+      "english": 79,
+      "maths": 75,
+      "science": 90,
+      "sst": 92,
+      "hindi": 93,
+      "computer": 51,
+      "civics": 76,
+      "geography": 72,
+      "physics": 88,
+      "chemistry": 68,
+      "biology": 60
     }
   },
   {
@@ -1068,6 +1874,19 @@
       "city": "Gilbert",
       "street": "17861 Patil Plaza",
       "state": "Daman and Diu"
+    },
+    "marks": {
+      "english": 99,
+      "maths": 34,
+      "science": 51,
+      "sst": 85,
+      "hindi": 49,
+      "computer": 89,
+      "civics": 82,
+      "geography": 50,
+      "physics": 60,
+      "chemistry": 86,
+      "biology": 94
     }
   },
   {
@@ -1085,6 +1904,19 @@
       "city": "Lakeland",
       "street": "20618 Singh Lakes",
       "state": "Himachal Pradesh"
+    },
+    "marks": {
+      "english": 39,
+      "maths": 54,
+      "science": 51,
+      "sst": 51,
+      "hindi": 60,
+      "computer": 77,
+      "civics": 92,
+      "geography": 94,
+      "physics": 47,
+      "chemistry": 54,
+      "biology": 51
     }
   },
   {
@@ -1102,6 +1934,19 @@
       "city": "Brandon",
       "street": "360 Gajabahu Course",
       "state": "Odisha"
+    },
+    "marks": {
+      "english": 42,
+      "maths": 86,
+      "science": 58,
+      "sst": 67,
+      "hindi": 71,
+      "computer": 83,
+      "civics": 37,
+      "geography": 35,
+      "physics": 97,
+      "chemistry": 99,
+      "biology": 34
     }
   },
   {
@@ -1119,6 +1964,19 @@
       "city": "Long Beach",
       "street": "8474 Devika Flat",
       "state": "Jharkhand"
+    },
+    "marks": {
+      "english": 68,
+      "maths": 80,
+      "science": 52,
+      "sst": 54,
+      "hindi": 37,
+      "computer": 71,
+      "civics": 35,
+      "geography": 72,
+      "physics": 63,
+      "chemistry": 44,
+      "biology": 53
     }
   },
   {
@@ -1136,6 +1994,19 @@
       "city": "Nampa",
       "street": "63048 Chandrabhan Lights",
       "state": "Bihar"
+    },
+    "marks": {
+      "english": 57,
+      "maths": 43,
+      "science": 35,
+      "sst": 64,
+      "hindi": 89,
+      "computer": 57,
+      "civics": 76,
+      "geography": 75,
+      "physics": 38,
+      "chemistry": 45,
+      "biology": 51
     }
   },
   {
@@ -1153,6 +2024,19 @@
       "city": "Greenville",
       "street": "85278 Ujjwal Forks",
       "state": "Jammu and Kashmir"
+    },
+    "marks": {
+      "english": 56,
+      "maths": 61,
+      "science": 99,
+      "sst": 88,
+      "hindi": 71,
+      "computer": 39,
+      "civics": 38,
+      "geography": 41,
+      "physics": 71,
+      "chemistry": 88,
+      "biology": 92
     }
   },
   {
@@ -1170,6 +2054,19 @@
       "city": "Carrollton",
       "street": "88737 Chandrakala Pines",
       "state": "Manipur"
+    },
+    "marks": {
+      "english": 87,
+      "maths": 96,
+      "science": 78,
+      "sst": 63,
+      "hindi": 92,
+      "computer": 84,
+      "civics": 36,
+      "geography": 95,
+      "physics": 88,
+      "chemistry": 99,
+      "biology": 76
     }
   },
   {
@@ -1187,6 +2084,19 @@
       "city": "Round Rock",
       "street": "0882 Abhaya Drive",
       "state": "Maharashtra"
+    },
+    "marks": {
+      "english": 68,
+      "maths": 61,
+      "science": 95,
+      "sst": 69,
+      "hindi": 88,
+      "computer": 88,
+      "civics": 100,
+      "geography": 84,
+      "physics": 74,
+      "chemistry": 76,
+      "biology": 62
     }
   },
   {
@@ -1204,6 +2114,19 @@
       "city": "Bismarck",
       "street": "555 Gobinda Locks",
       "state": "Telangana"
+    },
+    "marks": {
+      "english": 69,
+      "maths": 89,
+      "science": 51,
+      "sst": 54,
+      "hindi": 35,
+      "computer": 69,
+      "civics": 56,
+      "geography": 93,
+      "physics": 60,
+      "chemistry": 96,
+      "biology": 61
     }
   },
   {
@@ -1221,6 +2144,19 @@
       "city": "Westminster",
       "street": "72812 Dhaanyalakshmi Mountains",
       "state": "Haryana"
+    },
+    "marks": {
+      "english": 46,
+      "maths": 79,
+      "science": 63,
+      "sst": 52,
+      "hindi": 56,
+      "computer": 57,
+      "civics": 55,
+      "geography": 64,
+      "physics": 64,
+      "chemistry": 74,
+      "biology": 69
     }
   },
   {
@@ -1238,6 +2174,19 @@
       "city": "Glendale",
       "street": "459 Vidya Glen",
       "state": "Rajasthan"
+    },
+    "marks": {
+      "english": 89,
+      "maths": 54,
+      "science": 49,
+      "sst": 75,
+      "hindi": 44,
+      "computer": 36,
+      "civics": 65,
+      "geography": 83,
+      "physics": 68,
+      "chemistry": 86,
+      "biology": 68
     }
   },
   {
@@ -1255,6 +2204,19 @@
       "city": "Mesquite",
       "street": "5511 Tandon Forest",
       "state": "Gujarat"
+    },
+    "marks": {
+      "english": 53,
+      "maths": 53,
+      "science": 38,
+      "sst": 82,
+      "hindi": 72,
+      "computer": 33,
+      "civics": 42,
+      "geography": 37,
+      "physics": 89,
+      "chemistry": 42,
+      "biology": 64
     }
   },
   {
@@ -1272,6 +2234,19 @@
       "city": "College Station",
       "street": "3535 Mishra Canyon",
       "state": "Delhi"
+    },
+    "marks": {
+      "english": 47,
+      "maths": 42,
+      "science": 39,
+      "sst": 86,
+      "hindi": 67,
+      "computer": 77,
+      "civics": 82,
+      "geography": 46,
+      "physics": 58,
+      "chemistry": 39,
+      "biology": 74
     }
   },
   {
@@ -1289,6 +2264,19 @@
       "city": "Tucson",
       "street": "20443 Chandraprabha Brook",
       "state": "Punjab"
+    },
+    "marks": {
+      "english": 59,
+      "maths": 66,
+      "science": 68,
+      "sst": 99,
+      "hindi": 50,
+      "computer": 57,
+      "civics": 95,
+      "geography": 73,
+      "physics": 59,
+      "chemistry": 69,
+      "biology": 80
     }
   },
   {
@@ -1306,6 +2294,19 @@
       "city": "New York",
       "street": "813 Kapoor Centers",
       "state": "Mizoram"
+    },
+    "marks": {
+      "english": 52,
+      "maths": 88,
+      "science": 89,
+      "sst": 92,
+      "hindi": 67,
+      "computer": 38,
+      "civics": 51,
+      "geography": 60,
+      "physics": 90,
+      "chemistry": 84,
+      "biology": 63
     }
   },
   {
@@ -1323,6 +2324,19 @@
       "city": "Warwick",
       "street": "63906 Nirbhay Route",
       "state": "Uttar Pradesh"
+    },
+    "marks": {
+      "english": 59,
+      "maths": 48,
+      "science": 68,
+      "sst": 33,
+      "hindi": 92,
+      "computer": 33,
+      "civics": 85,
+      "geography": 91,
+      "physics": 90,
+      "chemistry": 97,
+      "biology": 81
     }
   },
   {
@@ -1340,6 +2354,19 @@
       "city": "Palm Coast",
       "street": "347 Sunita Ridge",
       "state": "Assam"
+    },
+    "marks": {
+      "english": 82,
+      "maths": 61,
+      "science": 98,
+      "sst": 78,
+      "hindi": 63,
+      "computer": 38,
+      "civics": 78,
+      "geography": 49,
+      "physics": 81,
+      "chemistry": 80,
+      "biology": 88
     }
   },
   {
@@ -1357,6 +2384,19 @@
       "city": "Kansas City",
       "street": "6684 Desai Drive",
       "state": "Sikkim"
+    },
+    "marks": {
+      "english": 34,
+      "maths": 37,
+      "science": 56,
+      "sst": 79,
+      "hindi": 73,
+      "computer": 91,
+      "civics": 33,
+      "geography": 61,
+      "physics": 35,
+      "chemistry": 74,
+      "biology": 40
     }
   },
   {
@@ -1374,6 +2414,19 @@
       "city": "Memphis",
       "street": "6079 Dwivedi Drive",
       "state": "Arunachal Pradesh"
+    },
+    "marks": {
+      "english": 87,
+      "maths": 54,
+      "science": 38,
+      "sst": 65,
+      "hindi": 60,
+      "computer": 63,
+      "civics": 83,
+      "geography": 52,
+      "physics": 87,
+      "chemistry": 93,
+      "biology": 84
     }
   },
   {
@@ -1391,6 +2444,19 @@
       "city": "Nampa",
       "street": "395 Menon Path",
       "state": "Sikkim"
+    },
+    "marks": {
+      "english": 85,
+      "maths": 62,
+      "science": 33,
+      "sst": 72,
+      "hindi": 84,
+      "computer": 48,
+      "civics": 86,
+      "geography": 70,
+      "physics": 85,
+      "chemistry": 57,
+      "biology": 96
     }
   },
   {
@@ -1408,6 +2474,19 @@
       "city": "Lee's Summit",
       "street": "0382 Niro Burg",
       "state": "Rajasthan"
+    },
+    "marks": {
+      "english": 45,
+      "maths": 62,
+      "science": 35,
+      "sst": 82,
+      "hindi": 44,
+      "computer": 76,
+      "civics": 90,
+      "geography": 72,
+      "physics": 34,
+      "chemistry": 43,
+      "biology": 97
     }
   },
   {
@@ -1425,6 +2504,19 @@
       "city": "Novato",
       "street": "297 Achari Land",
       "state": "Chandigarh"
+    },
+    "marks": {
+      "english": 97,
+      "maths": 52,
+      "science": 98,
+      "sst": 88,
+      "hindi": 39,
+      "computer": 52,
+      "civics": 88,
+      "geography": 85,
+      "physics": 67,
+      "chemistry": 44,
+      "biology": 41
     }
   },
   {
@@ -1442,6 +2534,19 @@
       "city": "El Paso",
       "street": "4077 Chopra Stravenue",
       "state": "Haryana"
+    },
+    "marks": {
+      "english": 65,
+      "maths": 35,
+      "science": 47,
+      "sst": 78,
+      "hindi": 54,
+      "computer": 99,
+      "civics": 72,
+      "geography": 52,
+      "physics": 62,
+      "chemistry": 45,
+      "biology": 53
     }
   },
   {
@@ -1459,6 +2564,19 @@
       "city": "Lehigh Acres",
       "street": "6378 Poornima Trafficway",
       "state": "Delhi"
+    },
+    "marks": {
+      "english": 65,
+      "maths": 33,
+      "science": 87,
+      "sst": 42,
+      "hindi": 80,
+      "computer": 76,
+      "civics": 65,
+      "geography": 74,
+      "physics": 73,
+      "chemistry": 87,
+      "biology": 87
     }
   },
   {
@@ -1476,6 +2594,19 @@
       "city": "Potomac",
       "street": "61443 Achari Run",
       "state": "Mizoram"
+    },
+    "marks": {
+      "english": 61,
+      "maths": 57,
+      "science": 70,
+      "sst": 49,
+      "hindi": 69,
+      "computer": 59,
+      "civics": 63,
+      "geography": 76,
+      "physics": 85,
+      "chemistry": 49,
+      "biology": 98
     }
   },
   {
@@ -1493,6 +2624,19 @@
       "city": "Billings",
       "street": "24138 Kaul Shoals",
       "state": "Gujarat"
+    },
+    "marks": {
+      "english": 85,
+      "maths": 73,
+      "science": 86,
+      "sst": 60,
+      "hindi": 96,
+      "computer": 54,
+      "civics": 83,
+      "geography": 44,
+      "physics": 57,
+      "chemistry": 73,
+      "biology": 93
     }
   },
   {
@@ -1510,6 +2654,19 @@
       "city": "Sioux Falls",
       "street": "8245 Arindam Port",
       "state": "Jharkhand"
+    },
+    "marks": {
+      "english": 72,
+      "maths": 74,
+      "science": 56,
+      "sst": 38,
+      "hindi": 38,
+      "computer": 58,
+      "civics": 37,
+      "geography": 99,
+      "physics": 80,
+      "chemistry": 68,
+      "biology": 53
     }
   },
   {
@@ -1527,6 +2684,19 @@
       "city": "The Hammocks",
       "street": "19172 Sharmila Well",
       "state": "Andaman and Nicobar Islands"
+    },
+    "marks": {
+      "english": 90,
+      "maths": 79,
+      "science": 63,
+      "sst": 64,
+      "hindi": 100,
+      "computer": 75,
+      "civics": 80,
+      "geography": 73,
+      "physics": 56,
+      "chemistry": 95,
+      "biology": 47
     }
   },
   {
@@ -1544,6 +2714,19 @@
       "city": "Canton",
       "street": "704 Banerjee Extensions",
       "state": "Nagaland"
+    },
+    "marks": {
+      "english": 88,
+      "maths": 50,
+      "science": 46,
+      "sst": 55,
+      "hindi": 92,
+      "computer": 75,
+      "civics": 36,
+      "geography": 72,
+      "physics": 53,
+      "chemistry": 66,
+      "biology": 37
     }
   },
   {
@@ -1561,6 +2744,19 @@
       "city": "Rocky Mount",
       "street": "05028 Anshula Pike",
       "state": "Haryana"
+    },
+    "marks": {
+      "english": 77,
+      "maths": 35,
+      "science": 76,
+      "sst": 36,
+      "hindi": 41,
+      "computer": 86,
+      "civics": 80,
+      "geography": 76,
+      "physics": 85,
+      "chemistry": 58,
+      "biology": 43
     }
   },
   {
@@ -1578,6 +2774,19 @@
       "city": "Longview",
       "street": "5034 Iyer Wall",
       "state": "West Bengal"
+    },
+    "marks": {
+      "english": 50,
+      "maths": 94,
+      "science": 83,
+      "sst": 81,
+      "hindi": 49,
+      "computer": 64,
+      "civics": 50,
+      "geography": 49,
+      "physics": 39,
+      "chemistry": 59,
+      "biology": 81
     }
   },
   {
@@ -1595,6 +2804,19 @@
       "city": "Seattle",
       "street": "78196 Amarnath Rapid",
       "state": "Sikkim"
+    },
+    "marks": {
+      "english": 50,
+      "maths": 57,
+      "science": 71,
+      "sst": 84,
+      "hindi": 92,
+      "computer": 48,
+      "civics": 40,
+      "geography": 71,
+      "physics": 50,
+      "chemistry": 63,
+      "biology": 45
     }
   },
   {
@@ -1612,6 +2834,19 @@
       "city": "Sayreville",
       "street": "66616 Chopra Expressway",
       "state": "Telangana"
+    },
+    "marks": {
+      "english": 66,
+      "maths": 99,
+      "science": 35,
+      "sst": 90,
+      "hindi": 95,
+      "computer": 66,
+      "civics": 95,
+      "geography": 63,
+      "physics": 68,
+      "chemistry": 92,
+      "biology": 54
     }
   },
   {
@@ -1629,6 +2864,19 @@
       "city": "Oakland Park",
       "street": "00183 Banerjee Stravenue",
       "state": "Delhi"
+    },
+    "marks": {
+      "english": 40,
+      "maths": 40,
+      "science": 47,
+      "sst": 100,
+      "hindi": 95,
+      "computer": 73,
+      "civics": 52,
+      "geography": 71,
+      "physics": 91,
+      "chemistry": 61,
+      "biology": 73
     }
   },
   {
@@ -1646,6 +2894,19 @@
       "city": "Annandale",
       "street": "171 Chattopadhyay Garden",
       "state": "Andaman and Nicobar Islands"
+    },
+    "marks": {
+      "english": 84,
+      "maths": 77,
+      "science": 77,
+      "sst": 35,
+      "hindi": 36,
+      "computer": 78,
+      "civics": 39,
+      "geography": 69,
+      "physics": 95,
+      "chemistry": 63,
+      "biology": 54
     }
   },
   {
@@ -1663,6 +2924,19 @@
       "city": "Cambridge",
       "street": "428 Devika Parkway",
       "state": "Dadar and Nagar Haveli"
+    },
+    "marks": {
+      "english": 46,
+      "maths": 56,
+      "science": 90,
+      "sst": 39,
+      "hindi": 77,
+      "computer": 53,
+      "civics": 64,
+      "geography": 56,
+      "physics": 42,
+      "chemistry": 55,
+      "biology": 34
     }
   },
   {
@@ -1680,6 +2954,19 @@
       "city": "Casa Grande",
       "street": "039 Pandey Forks",
       "state": "Assam"
+    },
+    "marks": {
+      "english": 64,
+      "maths": 72,
+      "science": 33,
+      "sst": 35,
+      "hindi": 68,
+      "computer": 71,
+      "civics": 34,
+      "geography": 58,
+      "physics": 45,
+      "chemistry": 44,
+      "biology": 34
     }
   },
   {
@@ -1697,6 +2984,19 @@
       "city": "St. Cloud",
       "street": "863 Budhil Brooks",
       "state": "Punjab"
+    },
+    "marks": {
+      "english": 53,
+      "maths": 49,
+      "science": 95,
+      "sst": 53,
+      "hindi": 72,
+      "computer": 46,
+      "civics": 69,
+      "geography": 59,
+      "physics": 77,
+      "chemistry": 80,
+      "biology": 76
     }
   }
 ]
