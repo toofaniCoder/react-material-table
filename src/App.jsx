@@ -10,6 +10,12 @@ import {
 import STUDENTS from "./students.json";
 // console.log(STUDENTS);
 
+//Date Picker Imports - these should just be in your Context Provider
+import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
+import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
+import { AdapterMoment } from "@mui/x-date-pickers/AdapterMoment";
+import moment from "moment";
+
 function App() {
   //should be memoized or stable
   const columns = useMemo(
@@ -18,56 +24,37 @@ function App() {
         accessorKey: "name",
         header: "Full Name",
       },
-      {
-        accessorKey: "email",
-        header: "E-mail Address",
-      },
-      {
-        accessorKey: "phone",
-        header: "Phone Number",
-      },
 
       {
         accessorKey: "standard",
         header: "Class Name",
-      },
-
-      {
-        accessorKey: "section",
-        header: "Section",
+        filterVariant: "range",
       },
 
       {
         accessorKey: "age",
         header: "Age",
+        filterVariant: "range-slider",
       },
       {
-        accessorKey: "date_of_birth",
+        // accessorKey: "date_of_birth",
+        accessorFn: (row) => moment(row.date_of_birth).calendar(),
+        id: "date_of_birth",
         header: "DOB",
+        filterVariant: "date",
+        filterFn: (row, id, filterValue) =>
+          row.getValue(id) === moment(filterValue._d).calendar(),
       },
 
       {
-        accessorKey: "date_of_admission",
+        // accessorKey: "date_of_admission",
+        accessorFn: (row) => moment(row.date_of_admission).format("LLL"),
+        id: "date_of_admission",
         header: "DOA",
+        filterVariant: "datetime",
+        filterFn: (row, id, filterValue) =>
+          row.getValue(id) === moment(filterValue._d).format("LLL"),
       },
-
-      {
-        accessorKey: "address.pincode",
-        header: "Postal Code",
-      },
-
-      {
-        accessorKey: "address.city",
-        header: "City Name",
-      },
-      {
-        accessorKey: "address.street",
-        header: "Street Address",
-      },
-      {
-        accessorKey:"address.state",
-        header:"State Name"
-      }
     ],
     []
   );
@@ -75,13 +62,20 @@ function App() {
   const table = useMaterialReactTable({
     columns,
     data: STUDENTS,
-    initialState: { pagination: { pageSize: 5, pageIndex: 0 } },
+    enableFacetedValues: true,
+    initialState: {
+      showColumnFilters: true,
+      pagination: { pageSize: 5, pageIndex: 0 },
+    },
   });
 
+  console.log(table.getState());
   return (
-    <Container sx={{ py: 5 }}>
-      <MaterialReactTable table={table} />
-    </Container>
+    <LocalizationProvider dateAdapter={AdapterMoment}>
+      <Container sx={{ py: 5 }}>
+        <MaterialReactTable table={table} />
+      </Container>
+    </LocalizationProvider>
   );
 }
 

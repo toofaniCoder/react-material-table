@@ -15,8 +15,10 @@
     "@fontsource/roboto": "5.0.12",
     "@mui/icons-material": "5.15.15",
     "@mui/material": "5.15.15",
-    "@mui/x-date-pickers": "7.2.0",
+    "@mui/x-date-pickers": "^7.2.0",
+    "dayjs": "^1.11.11",
     "material-react-table": "2.12.1",
+    "moment": "^2.30.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
