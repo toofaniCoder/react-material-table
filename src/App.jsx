@@ -9,6 +9,7 @@ import {
   Switch,
 } from "@mui/material";
 import "./App.css";
+import moment from "moment";
 
 import {
   MaterialReactTable,
@@ -59,14 +60,18 @@ function App() {
         header: "DOA",
       },
       {
-        size:200,
-        accessorFn: (row) => new Date(row.date_of_birth).toDateString(),
+        accessorFn: (row) => moment(row.date_of_birth).format("DD MMM"),
         id: "birthday",
         header: "Birthday",
         Cell: ({ cell }) => (
-          <Stack spacing={2} direction={"row"} alignItems={"center"} justifyContent={"space-between"}>
+          <Stack
+            spacing={2}
+            direction={"row"}
+            alignItems={"center"}
+            justifyContent={"space-between"}
+          >
             <span>🎂 {cell.getValue()}</span>
-            <Button color="success"  variant="contained" size="small">
+            <Button color="success" variant="contained" size="small">
               send wishesh
             </Button>
           </Stack>
@@ -79,7 +84,10 @@ function App() {
           />
         ),
         filterFn: (row, id, filterValue) =>
-          filterValue ? row.getValue(id) === new Date().toDateString() : null,
+          filterValue
+            ? row.getValue(id) ===
+              moment(new Date()).format("DD MMM")
+            : null,
       },
 
       // {
